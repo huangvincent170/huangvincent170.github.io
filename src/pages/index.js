@@ -1,11 +1,11 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 export default () => (
-<div>
+<Layout>
     <h1>Hello world!</h1>
     <p>
-        Click <a href="./resume">here</a> to visit the resume page.
-        <br/>Click <a href="./project">here</a> to visit the project page.
+        This is the home page.
     </p>
-</div>
+</Layout>
 )
