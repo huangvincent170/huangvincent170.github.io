@@ -1,0 +1,8 @@
+.Navlist {
+    list-style: none;
+}
+
+.Navlist li {
+    float: left;
+}
+
