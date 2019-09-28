@@ -7,7 +7,7 @@ class Navbar extends React.Component {
     render () {
         return (
             <ul>
-                {this.props.links.map( (obj) =>
+                {this.props.links.map((obj) =>
                     <li>
                         <Link to={obj.link}>{obj.label}</Link>
                     </li>

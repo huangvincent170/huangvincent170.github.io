@@ -1,8 +1,23 @@
-.Navlist {
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     list-style: none;
+    justify-content: center;
 }
 
-.Navlist li {
-    float: left;
+li {
+    width: 100px;
+    height: 100dp;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: black;
 }
 
