@@ -1,23 +1,27 @@
+body {
+    margin: 0;
+}
+
 ul {
+    margin: 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     list-style: none;
     justify-content: center;
+    background-color: black;
+    height: 50px;
 }
 
 li {
+    margin: auto 0;
     width: 100px;
-    height: 100dp;
     font-size: 20px;
     text-align: center;
 }
 
 a {
+    color: gray;
     text-decoration-line: none;
-}
-
-a:visited {
-    color: black;
 }
 
