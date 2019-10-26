@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+div.terminalWrap {
+    display: flex;
+    justify-content: center;
+}
+
+div.terminalDiv {
+    width: 50%;
+    background-color: #121212;
+    
+    border-style: solid;
+    border-width: 20px 0px 0px 0px;
+    border-color: #dbdbdb;
+    border-radius: 20px 20px 0 0;
+}
+
+p.terminalCmd {
+    margin-left: 8%;
+    margin-top: 2em;
+    margin-bottom: 0;
+    color: white;
+    font-family: Share Tech Mono;
+}
+
+p.terminalRes {
+    margin-left: 10%;
+    margin-top: .2em;
+    color: white;
+    font-family: Share Tech Mono;
+}
