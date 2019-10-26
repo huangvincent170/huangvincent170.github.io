@@ -1,11 +1,13 @@
 import React from "react"
+import Layout from "../components/Layout"
+import Header from "../components/Header"
+import Body from "../components/Body"
 
 export default () => (
-<div>
-    <h1>Hello world!</h1>
-    <p>
-        Click <a href="./resume">here</a> to visit the resume page.
-        <br/>Click <a href="./project">here</a> to visit the project page.
-    </p>
-</div>
+<Layout>
+    <Header/>
+    <Body content="test"></Body>
+    
+    
+</Layout>
 )

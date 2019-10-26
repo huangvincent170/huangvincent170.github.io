@@ -1,3 +1,4 @@
 import React from "react"
+import Layout from "../components/Layout"
 
-export default () => <div>This is the resume page</div>
+export default () => <Layout>This is the resume page</Layout>
