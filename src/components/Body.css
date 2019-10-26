@@ -1,7 +1,12 @@
-div.backDiv {
+body {
+    margin: 0;
     background-color: #1c1c1c;
+}
+
+div.bodyWrap {
     display: flex;
     justify-content: center;
+    padding-bottom: 2cm;
 }
 
 div.bodyDiv {
