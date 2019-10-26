@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Header from "../components/Header"
 import Body from "../components/Body"
 import Terminal from "../components/Terminal"
+import Projects from "../components/Projects"
 
 const oldBody = (
     <Body>
@@ -26,6 +27,6 @@ export default () => (
         "Vincent.math.concentration", "[Discrete Mathematics]",
         "Vincent.graduationDate", "May 2022"
     ]}/>
-
+    <Projects/>
 </Layout>
 )
