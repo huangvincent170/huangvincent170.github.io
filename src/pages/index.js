@@ -4,6 +4,8 @@ import Header from "../components/Header"
 import Body from "../components/Body"
 import Terminal from "../components/Terminal"
 
+import Title from "../components/Title"
+
 const oldBody = (
     <Body>
         <h1>About</h1>
@@ -17,6 +19,7 @@ const oldBody = (
 
 export default () => (
 <Layout>
+    {/*
     <Header includeMajor = {true}/>
     <Terminal text={[
         "Vincent.school", "Georgia Tech",
@@ -26,6 +29,8 @@ export default () => (
         "Vincent.math.concentration", "[Discrete Mathematics]",
         "Vincent.graduationDate", "May 2022"
     ]}/>
+     */}
+    <Title/>
 
 </Layout>
 )

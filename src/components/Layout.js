@@ -7,7 +7,9 @@ class Layout extends PureComponent{
                         {link:"/project", label:"Projects"}]
 
         return  <div>
+                    {/*
                     <Navbar links={links}/>
+                    */}
                     {this.props.children}
                 </div>
     }

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|IBM+Plex+Mono|Fira+Code");
+
+$color-text-main:   #ededed;
+$font-code: IBM Plex Mono;
+$font-main: Ubuntu;
+
+div.title-wrapper {
+    display: flex;
+    justify-content: center;
+    div.title-main {
+        color: $color-text-main;  
+    
+        display: flex;
+        flex-direction: column;
+    
+        margin: 250px 150px;
+        width: 100%;
+        max-width: 1000px;
+        
+        h3.title-hello {
+            font-family: $font-code;
+            font-size: 1em;
+            font-weight: 100;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        h1.title-name { 
+            font-size: 6.5em;
+            font-weight: 100;
+            font-family: $font-main;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        div.title-description-wrapper {
+            max-width: 80%;
+            p.title-description {
+                font-family: $font-code;
+    
+            }
+        }
+    }
+}
