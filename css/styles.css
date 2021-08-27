@@ -120,14 +120,12 @@ aside,
 	color: #3ba0e6;
 }
 
+#icons-span {
+	margin: 0 40px 0 40px;
+}
 
 #my-name {
     line-height: 1em;
-}
-
-#intro-left {
-    float: left;
-    width: 40%;
 }
 
 #intro-left-container {
@@ -135,22 +133,49 @@ aside,
     width: fit-content;
 }
 
-#intro-right {
-    float: right;
-    width: 60%;
-    padding: 20vh 10% 0 10%;
-}
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 750px) {
 	#my-name {
         font-size: 75px;
-        margin: 20vh 0 20px 0;
+        margin: 20vh 40px 20px 40px;
+    }
+
+	#intro-right {
+		padding: 10vh 10% 0 10%;
+	}
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 750px) {
+	#intro-left {
+		float: left;
+		width: 40%;
+	}
+
+	#intro-right {
+		float: right;
+		width: 60%;
+		padding: 20vh 10% 0 10%;
+	}
+
+	#my-name {
+        font-size: 75px;
+        margin: 20vh 40px 20px 40px;
     }
 }
 
 @media only screen and (max-width: 1921px) and (min-width: 1000px) {
+	#intro-left {
+		float: left;
+		width: 40%;
+	}
+
+	#intro-right {
+		float: right;
+		width: 60%;
+		padding: 20vh 10% 0 10%;
+	}
+
 	#my-name {
         font-size: 100px;
-        margin: 20vh 0 20px 0;
+        margin: 20vh 40px 20px 40px;
     }
 }
