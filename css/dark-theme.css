@@ -112,6 +112,14 @@ aside,
 	}
 } */
 
+.link {
+    color: #1e8ad6;
+}
+
+.link:hover {
+	color: #3ba0e6;
+}
+
 
 #my-name {
     line-height: 1em;
